@@ -61,7 +61,7 @@ active; settlement replaces the reserve with the real cost in one statement.
 | Every number comes from a recorded run or test | No estimates presented as measurements |
 | Sample sizes and conditions are stated | Readers can judge how far a result generalises |
 | Limitations get their own section | What was *not* measured matters as much as what was |
-| Live and planned work are kept apart | Robinhood Chain execution is planned, not live |
+| Live and planned work are kept apart | Robinhood Chain data is live; wallet transfers and execution are not |
 
 Raw data and the harness that produced it: [syncronix-benchmarks](https://github.com/SyncronixLabs/syncronix-benchmarks).
 
