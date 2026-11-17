@@ -1,6 +1,6 @@
 # Atomic budget admission for a public LLM agent
 
-*November 2026 · SYNCRONIX public beta*
+*November 2026 · SYNCRONIX*
 
 ## The constraint
 
