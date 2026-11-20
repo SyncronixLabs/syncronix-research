@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SyncronixLabs/SyncronixLabs/main/assets/syncronix-banner.jpg" alt="SYNCRONIX" width="100%">
+  <img src="assets/banner.png" alt="SYNCRONIX / Research" width="100%">
 </p>
 
 <h1 align="center">SYNCRONIX Research</h1>
