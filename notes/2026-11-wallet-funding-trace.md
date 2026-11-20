@@ -8,7 +8,7 @@ Who sent a Robinhood Chain address its first ETH, who funded *that* address, and
 funders? The answer has to be shown with evidence, separate what is a real transfer from what is only a pattern, run
 within a free indexer allowance, and use no AI unless a visitor explicitly asks for a written summary.
 
-This note covers how SYNCRONIX answers it in production (release `e73d8c5`), what went wrong on the way, and what is
+This note covers how SYNCRONIX answers it in production (release `ce78c9a`), what went wrong on the way, and what is
 still uncertain.
 
 ## Choosing an indexed-history source
