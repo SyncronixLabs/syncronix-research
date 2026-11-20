@@ -6,7 +6,7 @@
 
 <p align="center">
   Engineering notes from building SYNCRONIX — each with the measurements behind it and its limitations stated.<br>
-  <a href="https://syncronixai.xyz">Website</a> · <a href="https://github.com/SyncronixLabs/syncronix-docs">Docs</a> · <a href="https://github.com/SyncronixLabs/syncronix-benchmarks">Benchmarks</a>
+  <a href="https://syncronixai.xyz">Website</a> · <a href="https://github.com/SyncronixLabs/syncronix-docs">Docs</a> · <a href="https://github.com/SyncronixLabs/syncronix-benchmarks">Benchmarks</a> · <a href="https://github.com/SyncronixLabs/syncronix-docs/blob/main/whitepaper.md">Whitepaper</a> · <a href="CHANGELOG.md">Changelog</a>
 </p>
 
 ---
@@ -82,9 +82,11 @@ is marked *proven* only when the indexer's history up to that block is complete.
 | Every number comes from a recorded run or test | No estimates presented as measurements |
 | Sample sizes and conditions are stated | Readers can judge how far a result generalises |
 | Limitations get their own section | What was *not* measured matters as much as what was |
-| Live and planned work are kept apart | Robinhood Chain data and Wallet Intelligence are live; wallet transfers and execution are not |
+| Live and planned work are kept apart | Robinhood Chain data, Wallet Intelligence and wallet-approved transfers are live; autonomous AI execution is not |
 | Verified and inferred are kept apart | A transfer with a link is verified; a pattern across transfers is inferred and labelled so |
 
 Raw data and the harness that produced it: [syncronix-benchmarks](https://github.com/SyncronixLabs/syncronix-benchmarks).
+The whole system in one document: [technical whitepaper](https://github.com/SyncronixLabs/syncronix-docs/blob/main/whitepaper.md).
+History: [CHANGELOG.md](CHANGELOG.md).
 
 <sub>Licensed under [CC BY 4.0](LICENSE).</sub>
