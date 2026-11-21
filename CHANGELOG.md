@@ -2,6 +2,12 @@
 
 Notes added or changed in this repository, newest first. Dates are UTC.
 
+## 2026-11-21
+
+- Added [Is a 2× fee cap enough for a 60-second transfer preview?](notes/2026-11-fee-headroom.md): base fee and gas
+  estimate movement on Robinhood Chain mainnet and testnet, measured on the official RPC, with one mainnet burst
+  above the cap analysed block by block.
+
 ## 2026-11-20
 
 - Updated the release references in the notes to the current commit hashes of the production repository.

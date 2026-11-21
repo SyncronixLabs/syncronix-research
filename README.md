@@ -17,6 +17,7 @@
 |---|---|---|
 | Nov 2026 | 🔬 [**Grounded web research**](notes/2026-11-grounded-web-research.md) | Why did a research agent produce a "sourced" report after reading zero pages, and what made it read and cite sources at lower cost? |
 | Nov 2026 | ⚖️ [**Atomic budget admission**](notes/2026-11-atomic-budget-admission.md) | How do you open a paid LLM agent to the public with a hard daily budget that holds under concurrent requests? |
+| Nov 2026 | ⛽ [**Is a 2× fee cap enough?**](notes/2026-11-fee-headroom.md) | How often does the Robinhood Chain base fee rise above a transfer preview's 2× fee cap within the 60 s the preview is valid, and does the +20 % gas headroom matter? |
 | Nov 2026 | 🔎 [**Proving a wallet's first funder**](notes/2026-11-wallet-funding-trace.md) | How do you show who funded a Robinhood Chain address, with evidence, keeping verified transfers apart from inferred links, on a free indexer allowance? |
 
 ## Key findings
@@ -72,6 +73,24 @@ is marked *proven* only when the indexer's history up to that block is complete.
 | Opt-in AI analysis, measured | $0.0013–$0.0014 per brief (estimate shown first) |
 
 [Read the note →](notes/2026-11-wallet-funding-trace.md)
+
+</details>
+
+<details>
+<summary><b>Is a 2× fee cap enough?</b> — base fee movement within a 60 s transfer preview</summary>
+
+Measured on the official RPC, 20–21 Nov 2026, with no transaction sent:
+
+| Measure | Mainnet | Testnet |
+|---|---|---|
+| 60 s windows above the 2× cap | 1 of 288 sampled over 24 h · 0 of 1,581 live | 0 |
+| Max ÷ start base fee within 60 s, p99 | 1.62 (history) · 1.44 (live) | 1.00 |
+| The one window above the cap | above it from 12 s, peak 3.97×, up to 97 s above it | — |
+| Gas estimate, plain transfer · L1 component | 21,000 · 0 in all polls | 21,000 · 0 |
+
+The 2× cap usually holds but is not a guarantee. When it fails nothing moves and no fee is paid. A 4× cap would have
+covered the measured peak at a negligible worst-case cost; this is proposed, not changed in production.
+[Read the note →](notes/2026-11-fee-headroom.md)
 
 </details>
 
