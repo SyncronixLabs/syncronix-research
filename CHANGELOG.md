@@ -4,6 +4,7 @@ Notes added or changed in this repository, newest first. Dates are UTC.
 
 ## 2026-11-21
 
+- Added the official $SNX contract address (Robinhood Chain mainnet) to the README.
 - Added [Is a 2× fee cap enough for a 60-second transfer preview?](notes/2026-11-fee-headroom.md): base fee and gas
   estimate movement on Robinhood Chain mainnet and testnet, measured on the official RPC, with one mainnet burst
   above the cap analysed block by block.
